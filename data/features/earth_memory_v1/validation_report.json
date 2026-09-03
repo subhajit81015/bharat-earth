@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "row_count": 50133,
+  "checks": [
+    {
+      "name": "required_columns",
+      "status": "PASS",
+      "message": "Required Earth Memory columns are present."
+    },
+    {
+      "name": "memory_id",
+      "status": "PASS",
+      "message": "Memory IDs are deterministic."
+    },
+    {
+      "name": "unique_memory_ids",
+      "status": "PASS",
+      "message": "Memory IDs are unique."
+    },
+    {
+      "name": "one_to_one_state_memory",
+      "status": "PASS",
+      "message": "Memory records were generated for the Earth State input."
+    },
+    {
+      "name": "target_leakage",
+      "status": "PASS",
+      "message": "Target leakage not present."
+    },
+    {
+      "name": "subdivision_isolation",
+      "status": "PASS",
+      "message": "Subdivision values are populated."
+    },
+    {
+      "name": "temporal_ordering",
+      "status": "PASS",
+      "message": "Temporal month values are valid."
+    },
+    {
+      "name": "recurrence_values",
+      "status": "PASS",
+      "message": "Recurrence values are valid."
+    },
+    {
+      "name": "similarity_values",
+      "status": "PASS",
+      "message": "Similarity values are within [0, 1]."
+    },
+    {
+      "name": "missing_history_handling",
+      "status": "PASS",
+      "message": "Missing-history values are valid."
+    },
+    {
+      "name": "source_lineage",
+      "status": "PASS",
+      "message": "Source lineage metadata is present."
+    }
+  ],
+  "issues": []
+}

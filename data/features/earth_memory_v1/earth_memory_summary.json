@@ -1,0 +1,19 @@
+{
+  "input_artifact": "data\\features\\earth_state_v1\\earth_state.csv",
+  "output_artifact": "C:\\Users\\subha\\Downloads\\bharat-earth\\data\\features\\earth_memory_v1\\earth_memory.csv",
+  "row_count": 50133,
+  "column_count": 26,
+  "memory_version": "v1",
+  "history_horizon": 36,
+  "similarity_method": "normalized_observation_distance",
+  "similarity_threshold": 0.75,
+  "recurrence_definition": "similar prior states in the same subdivision within the bounded memory horizon",
+  "missing_history_statistics": {
+    "missing_history_count_total": 23976,
+    "missing_history_count_max": 36,
+    "memory_complete_count": 50097,
+    "history_sufficient_count": 50025
+  },
+  "validation_status": "UNVALIDATED",
+  "leakage_status": "PASS"
+}
