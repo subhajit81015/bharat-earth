@@ -1,0 +1,21 @@
+﻿cff-version: 1.2.0
+title: "Bharat Earth"
+version: "0.1.0"
+message: "If you use Bharat Earth in academic or technical work, please cite this project."
+type: software
+authors:
+  - family-names: "Ghosh"
+    given-names: "Subhajit"
+    affiliation: "Bharat Earth"
+    orcid: ""
+repository-code: "https://github.com/subhajit81015/bharat-earth"
+license: "SEE-LICENSE-IN-REPOSITORY"
+abstract: "Self-Evolving Climate Risk Intelligence Engine for environmental intelligence, climate-risk analysis, machine learning, uncertainty, reliability, and decision intelligence."
+keywords:
+  - climate intelligence
+  - environmental intelligence
+  - machine learning
+  - climate risk
+  - rainfall
+  - uncertainty
+  - decision intelligence
