@@ -1,0 +1,11 @@
+{
+  "track": "A",
+  "model": "Frozen V4",
+  "threshold": 0.09,
+  "precision": 0.08021288728378635,
+  "recall": 0.9952830188679245,
+  "f1": 0.14846086191732627,
+  "alert_rate": 0.6860980699008868,
+  "positive_rate": 0.05529473135106938,
+  "source_artifact": "C:\\Users\\subha\\Downloads\\bharat-earth\\data\\features\\calibrated_predictions.csv"
+}

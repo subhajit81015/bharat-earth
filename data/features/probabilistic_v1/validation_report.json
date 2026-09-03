@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checks": {
+    "schema": true,
+    "target_integrity": true,
+    "probability_bounds": true,
+    "temporal_split": true,
+    "v4_integrity": true,
+    "target_leakage": true,
+    "future_observation_leakage": true,
+    "normalization_leakage": true,
+    "regime_discovery_leakage": true,
+    "calibration_leakage": true,
+    "threshold_selection_leakage": true,
+    "feature_selection_leakage": true,
+    "train_test_overlap": true,
+    "artifact_separation": true,
+    "v4_immutability": true
+  },
+  "threshold": 0.09,
+  "row_count": 756,
+  "common_test_population_rows": 756
+}

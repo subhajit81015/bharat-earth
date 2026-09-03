@@ -1,0 +1,33 @@
+{
+  "experiment_version": "SECRIE-004-v1",
+  "hypothesis": "Climate-regime-conditioned probabilistic prediction may improve calibration and/or decision reliability under temporal distribution shift relative to the frozen V4 baseline.",
+  "tracks": [
+    "A_frozen_v4_baseline",
+    "B_transductive_exploratory_regime_context",
+    "C_strict_train_fitted_regime_aware_model"
+  ],
+  "target": "target_3m_severe_anomaly",
+  "train_window": "1901-2013",
+  "validation_window": "2014-2015",
+  "test_window": "2016-2017",
+  "thresholds": {
+    "v4_baseline": 0.09,
+    "track_c_if_used": "validation-only derived threshold, never tuned on test"
+  },
+  "protected_v4_rules": [
+    "Do not modify src/ml",
+    "Do not retrain V4",
+    "Do not overwrite V4 calibration",
+    "Do not change V4 policy threshold",
+    "Do not edit existing V4 artifacts"
+  ],
+  "leakage_policy": {
+    "target_leakage": "forbidden",
+    "future_observation_use": "forbidden",
+    "test_fitting": "forbidden",
+    "validation_plus_test_fit": "forbidden",
+    "full_history_regime_fit_for_track_c": "forbidden",
+    "earth_memory_for_track_c": "not used yet"
+  },
+  "requirement": "Do not optimize away a negative result."
+}

@@ -1,0 +1,122 @@
+{
+  "experiment_version": "SECRIE-004-v1",
+  "common_test_population": {
+    "key": [
+      "subdivision",
+      "year",
+      "month"
+    ],
+    "rows": 756,
+    "years": [
+      2016,
+      2017
+    ]
+  },
+  "tracks": {
+    "A": {
+      "type": "Frozen V4 baseline",
+      "population_rows": 756,
+      "threshold": 0.09
+    },
+    "B": {
+      "type": "TRANSductive / EXPLORATORY",
+      "population_rows": 756,
+      "source": "C:\\Users\\subha\\Downloads\\bharat-earth\\data\\features\\climate_regime_v1\\climate_regime.csv"
+    },
+    "C": {
+      "type": "Strict train-fitted regime-aware supervised model",
+      "population_rows": 756,
+      "train_window": "1901-2013",
+      "validation_window": "2014-2015",
+      "test_window": "2016-2017",
+      "calibration_fit_window": "2014-2015"
+    }
+  },
+  "calibration": {
+    "selected": "isotonic",
+    "selection_window": "2014-2015",
+    "selection_uses_test_labels": false
+  },
+  "model_comparison": [
+    {
+      "track": "A",
+      "label": "Frozen V4 baseline",
+      "split": "test",
+      "probability_column": "track_a_probability",
+      "pr_auc": 0.09249057749014135,
+      "roc_auc": 0.7538598442714126,
+      "brier": 0.04576443462887462,
+      "ece": 0.03919889374955688,
+      "precision": 0.09803921568627451,
+      "recall": 0.16129032258064516,
+      "f1": 0.12195121951219512,
+      "alert_rate": 0.06746031746031746
+    },
+    {
+      "track": "B",
+      "label": "TRANSductive / EXPLORATORY",
+      "split": "test",
+      "probability_column": "track_b_probability",
+      "pr_auc": 0.05124377677685496,
+      "roc_auc": 0.5699888765294772,
+      "brier": 0.039189824355703895,
+      "ece": 0.0033621371976195746,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "alert_rate": 0.0
+    },
+    {
+      "track": "C",
+      "label": "Strict train-fitted regime-aware raw",
+      "split": "test",
+      "probability_column": "track_c_raw_probability",
+      "pr_auc": 0.15020059525206744,
+      "roc_auc": 0.7863403781979977,
+      "brier": 0.037461935142283576,
+      "ece": 0.014814606753650619,
+      "precision": 0.13559322033898305,
+      "recall": 0.5161290322580645,
+      "f1": 0.21476510067114093,
+      "alert_rate": 0.15608465608465608
+    },
+    {
+      "track": "C",
+      "label": "Strict train-fitted regime-aware calibrated",
+      "split": "test",
+      "probability_column": "track_c_calibrated_probability",
+      "pr_auc": 0.1211494715415385,
+      "roc_auc": 0.7842936596218021,
+      "brier": 0.047966506670503506,
+      "ece": 0.06745420895691626,
+      "precision": 0.08666666666666667,
+      "recall": 0.8387096774193549,
+      "f1": 0.15709969788519637,
+      "alert_rate": 0.3968253968253968
+    }
+  ],
+  "validation": {
+    "status": "PASS",
+    "checks": {
+      "schema": true,
+      "target_integrity": true,
+      "probability_bounds": true,
+      "temporal_split": true,
+      "v4_integrity": true,
+      "target_leakage": true,
+      "future_observation_leakage": true,
+      "normalization_leakage": true,
+      "regime_discovery_leakage": true,
+      "calibration_leakage": true,
+      "threshold_selection_leakage": true,
+      "feature_selection_leakage": true,
+      "train_test_overlap": true,
+      "artifact_separation": true,
+      "v4_immutability": true
+    },
+    "threshold": 0.09,
+    "row_count": 756,
+    "common_test_population_rows": 756
+  },
+  "artifact_dir": "C:\\Users\\subha\\Downloads\\bharat-earth\\data\\features\\probabilistic_v1"
+}

@@ -1,0 +1,260 @@
+{
+  "experiment_version": "v1",
+  "target": "target_3m_severe_anomaly",
+  "features": [
+    {
+      "feature_name": "subdivision",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "categorical",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "year",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "numeric",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "month",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "categorical",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "season",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "categorical",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "rainfall_mm",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "numeric",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "rainfall_3m",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "numeric",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "rainfall_6m",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "numeric",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "rainfall_12m",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "numeric",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "historical_monthly_mean",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "numeric",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "rainfall_anomaly",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "numeric",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "rainfall_anomaly_pct",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "numeric",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "rainfall_deficit_mm",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "numeric",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "rainfall_missing",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "numeric",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "rainfall_zscore",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "numeric",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "rainfall_lag_1m",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "numeric",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "rainfall_lag_2m",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "numeric",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "rainfall_lag_3m",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "numeric",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "rainfall_prev_3m",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "numeric",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "rainfall_prev_6m",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "numeric",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "rainfall_prev_12m",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "numeric",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "rainfall_trend_3m",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "numeric",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "month_sin",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "numeric",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "month_cos",
+      "source_artifact": "data/features/ml_dataset_v4.csv",
+      "feature_type": "numeric",
+      "role": "observation",
+      "used_by_v4": true,
+      "introduced_by_secrire": false,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "regime_id",
+      "source_artifact": "data/features/climate_regime_v1/climate_regime.csv",
+      "feature_type": "categorical",
+      "role": "regime",
+      "used_by_v4": false,
+      "introduced_by_secrire": true,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "previous_regime_id",
+      "source_artifact": "data/features/climate_regime_v1/climate_regime.csv",
+      "feature_type": "categorical",
+      "role": "regime",
+      "used_by_v4": false,
+      "introduced_by_secrire": true,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "regime_changed",
+      "source_artifact": "data/features/climate_regime_v1/climate_regime.csv",
+      "feature_type": "categorical",
+      "role": "regime",
+      "used_by_v4": false,
+      "introduced_by_secrire": true,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "regime_duration",
+      "source_artifact": "data/features/climate_regime_v1/climate_regime.csv",
+      "feature_type": "categorical",
+      "role": "regime",
+      "used_by_v4": false,
+      "introduced_by_secrire": true,
+      "leakage_status": "PASS"
+    },
+    {
+      "feature_name": "consecutive_months_in_current_regime",
+      "source_artifact": "data/features/climate_regime_v1/climate_regime.csv",
+      "feature_type": "categorical",
+      "role": "regime",
+      "used_by_v4": false,
+      "introduced_by_secrire": true,
+      "leakage_status": "PASS"
+    }
+  ],
+  "strict_regime_rule": "Regime assignment is fitted on training rows only and frozen for validation/test.",
+  "memory_status": "Not used in Track C; treated as future ablation."
+}

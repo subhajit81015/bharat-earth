@@ -1,0 +1,19 @@
+{
+  "selected": "isotonic",
+  "fit_window": "2014-2015",
+  "selection_metric": "validation mean absolute calibration error",
+  "candidates": {
+    "raw": {
+      "brier": 0.08189869547816431,
+      "ece": 0.05266415500217409
+    },
+    "isotonic": {
+      "brier": 0.07349762289163773,
+      "ece": 0.001736111111111101
+    },
+    "sigmoid": {
+      "brier": 0.08354690941638826,
+      "ece": 0.04377247471672233
+    }
+  }
+}
