@@ -1,0 +1,76 @@
+{
+  "features": [
+    "subdivision",
+    "year",
+    "month",
+    "season",
+    "rainfall_mm",
+    "rainfall_3m",
+    "rainfall_6m",
+    "rainfall_12m",
+    "historical_monthly_mean",
+    "rainfall_anomaly",
+    "rainfall_anomaly_pct",
+    "rainfall_deficit_mm",
+    "rainfall_missing",
+    "rainfall_zscore",
+    "rainfall_lag_1m",
+    "rainfall_lag_2m",
+    "rainfall_lag_3m",
+    "rainfall_prev_3m",
+    "rainfall_prev_6m",
+    "rainfall_prev_12m",
+    "rainfall_trend_3m",
+    "month_sin",
+    "month_cos"
+  ],
+  "categorical_features": [
+    "subdivision",
+    "month",
+    "season"
+  ],
+  "numeric_features": [
+    "year",
+    "rainfall_mm",
+    "rainfall_3m",
+    "rainfall_6m",
+    "rainfall_12m",
+    "historical_monthly_mean",
+    "rainfall_anomaly",
+    "rainfall_anomaly_pct",
+    "rainfall_deficit_mm",
+    "rainfall_missing",
+    "rainfall_zscore",
+    "rainfall_lag_1m",
+    "rainfall_lag_2m",
+    "rainfall_lag_3m",
+    "rainfall_prev_3m",
+    "rainfall_prev_6m",
+    "rainfall_prev_12m",
+    "rainfall_trend_3m",
+    "month_sin",
+    "month_cos"
+  ],
+  "categorical_categories": {
+    "month": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "season": [
+      "MONSOON",
+      "POST_MONSOON",
+      "PRE_MONSOON",
+      "WINTER"
+    ]
+  }
+}

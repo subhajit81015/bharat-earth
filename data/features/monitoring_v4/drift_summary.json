@@ -1,0 +1,39 @@
+{
+  "step": "11",
+  "project_stage": "MODEL MONITORING AND DRIFT V4",
+  "input_file": "C:\\Users\\subha\\Downloads\\bharat-earth\\data\\features\\ml_dataset_v4.csv",
+  "reference_period": {
+    "start_year": 1901,
+    "end_year": 2013,
+    "rows": 48513
+  },
+  "production_period": {
+    "start_year": 2016,
+    "end_year": 2017,
+    "rows": 756
+  },
+  "feature_count": 23,
+  "categorical_feature_count": 3,
+  "numeric_feature_count": 20,
+  "psi_thresholds": {
+    "stable_below": 0.1,
+    "moderate_from": 0.1,
+    "significant_from": 0.25
+  },
+  "drift_counts": {
+    "stable": 19,
+    "moderate": 3,
+    "significant": 1
+  },
+  "maximum_psi": 12.702809535185633,
+  "maximum_psi_feature": "year",
+  "significant_drift_features": [
+    "year"
+  ],
+  "moderate_drift_features": [
+    "rainfall_prev_12m",
+    "rainfall_12m",
+    "rainfall_trend_3m"
+  ],
+  "production_readiness": "REVIEW"
+}

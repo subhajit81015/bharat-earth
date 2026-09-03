@@ -1,0 +1,2 @@
+model_version,target,probability_type,threshold,calibration_method,observations,alerts,alert_rate,mean_raw_probability,mean_sigmoid_probability,maximum_sigmoid_probability,minimum_sigmoid_probability,actual_events,true_positives,true_negatives,false_positives,false_negatives,precision,recall,f1
+bharat-earth-v4,target_3m_severe_anomaly,sigmoid_probability,0.09,sigmoid,50133,30133,0.6010611772684659,0.16210450605132645,0.12905023679970085,0.42048833030566407,0.08873548507344368,2241,2206,19965,27927,35,0.0732087744333455,0.9843819723337796,0.13628220176684994

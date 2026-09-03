@@ -1,0 +1,15 @@
+section,metric,value
+FINAL_POLICY,policy,GLOBAL
+FINAL_POLICY,probability_model,sigmoid_probability
+FINAL_POLICY,threshold,0.09
+FINAL_POLICY,precision,0.1608598962194218
+FINAL_POLICY,recall,0.5117924528301887
+FINAL_POLICY,f1,0.24478285391990975
+FINAL_POLICY,alert_rate,0.17592592592592593
+FINAL_POLICY,true_positive,217
+FINAL_POLICY,false_positive,1132
+FINAL_POLICY,false_negative,207
+FINAL_POLICY,true_negative,6112
+CONSTRAINTS,max_alert_rate,0.25
+CONSTRAINTS,minimum_precision,0.1
+CONSTRAINTS,minimum_recall,0.3

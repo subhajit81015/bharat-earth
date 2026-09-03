@@ -1,0 +1,72 @@
+{
+  "project": "Bharat Earth",
+  "validation_version": "3.13",
+  "timestamp": "2026-09-01T02:29:21.572314",
+  "project_root": "C:\\Users\\subha\\Downloads\\bharat-earth",
+  "deployment_file": "C:\\Users\\subha\\Downloads\\bharat-earth\\data\\features\\deployment\\final_risk_predictions_fixed.csv",
+  "deployment_rows": 7668,
+  "decision": "NO_GO",
+  "failure_count": 1,
+  "review_count": 7,
+  "failures": [
+    {
+      "section": "DATASET INTEGRITY",
+      "check": "REQUIRED FEATURE SCHEMA",
+      "status": "FAIL",
+      "value": "",
+      "details": "['rainfall_stress']"
+    }
+  ],
+  "reviews": [
+    {
+      "section": "KEY STRUCTURE",
+      "check": "FEATURES INVALID MONTH ROWS",
+      "status": "REVIEW",
+      "value": 50133,
+      "details": ""
+    },
+    {
+      "section": "KEY STRUCTURE",
+      "check": "TARGET INVALID MONTH ROWS",
+      "status": "REVIEW",
+      "value": 50133,
+      "details": ""
+    },
+    {
+      "section": "LEAKAGE",
+      "check": "TARGET-LIKE FEATURE NAMES",
+      "status": "REVIEW",
+      "value": "",
+      "details": "['target_3m_stress']"
+    },
+    {
+      "section": "MISSING VALUES",
+      "check": "FEATURES MISSING VALUE RATE",
+      "status": "REVIEW",
+      "value": "0.004169",
+      "details": "rainfall_trend_3m"
+    },
+    {
+      "section": "MISSING VALUES",
+      "check": "TARGET MISSING VALUE RATE",
+      "status": "REVIEW",
+      "value": "0.001257",
+      "details": "rainfall_mm"
+    },
+    {
+      "section": "DRIFT",
+      "check": "MAXIMUM PSI",
+      "status": "REVIEW",
+      "value": "0.472711",
+      "details": ""
+    },
+    {
+      "section": "DRIFT",
+      "check": "SIGNIFICANT DRIFT FEATURES",
+      "status": "REVIEW",
+      "value": "threshold=0.25",
+      "details": ""
+    }
+  ],
+  "status": "NOT_PRODUCTION_READY"
+}

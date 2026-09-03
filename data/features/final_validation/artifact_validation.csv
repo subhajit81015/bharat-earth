@@ -1,0 +1,11 @@
+section,check,status,value,details
+ARTIFACTS,ARTIFACT deployment_predictions,PASS,C:\Users\subha\Downloads\bharat-earth\data\features\deployment\final_risk_predictions_fixed.csv,
+ARTIFACTS,ARTIFACT final_predictions,PASS,C:\Users\subha\Downloads\bharat-earth\data\features\final_model\final_predictions.csv,
+ARTIFACTS,ARTIFACT feature_importance,PASS,C:\Users\subha\Downloads\bharat-earth\data\features\explainability\xgboost_feature_importance.csv,
+ARTIFACTS,ARTIFACT permutation_importance,PASS,C:\Users\subha\Downloads\bharat-earth\data\features\explainability\permutation_importance.csv,
+ARTIFACTS,ARTIFACT shap_importance,PASS,C:\Users\subha\Downloads\bharat-earth\data\features\explainability\shap_importance.csv,
+ARTIFACTS,ARTIFACT high_risk_records,PASS,C:\Users\subha\Downloads\bharat-earth\data\features\explainability\top_100_high_risk_records.csv,
+ARTIFACTS,ARTIFACT seasonal_policy,PASS,C:\Users\subha\Downloads\bharat-earth\data\features\seasonal_policy_results.csv,
+ARTIFACTS,ARTIFACT risk_alert_policy,PASS,C:\Users\subha\Downloads\bharat-earth\data\features\risk_alert_policy.csv,
+ARTIFACTS,ARTIFACT regional_risk_profile,PASS,C:\Users\subha\Downloads\bharat-earth\data\features\regional_risk_profile.csv,
+ARTIFACTS,ARTIFACT seasonal_risk_profile,PASS,C:\Users\subha\Downloads\bharat-earth\data\features\seasonal_risk_profile.csv,

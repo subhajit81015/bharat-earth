@@ -1,0 +1,2 @@
+observations,mean_probability,median_probability,std_probability,minimum_probability,p25_probability,p75_probability,p90_probability,p95_probability,p99_probability,maximum_probability,policy_threshold,alerts,alert_rate
+7668,0.039652179522965576,0.016914797000000002,0.04188700721227079,0.004648983,0.005934770775,0.0692924515,0.1092166135,0.124669491,0.14491077489999998,0.16743715,0.09,1349,0.17592592592592593

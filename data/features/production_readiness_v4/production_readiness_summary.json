@@ -1,0 +1,15 @@
+{
+    "project": "Bharat Earth",
+    "validation_version": "V4",
+    "final_decision": "GO_WITH_REVIEW",
+    "total_checks": 39,
+    "passes": 37,
+    "failures": 0,
+    "reviews": 2,
+    "dataset": "C:\\Users\\subha\\Downloads\\bharat-earth\\data\\features\\ml_dataset_v4.csv",
+    "model": "C:\\Users\\subha\\Downloads\\bharat-earth\\data\\features\\model_v4\\xgboost_model.json",
+    "model_schema": "C:\\Users\\subha\\Downloads\\bharat-earth\\data\\features\\model_v4\\model_schema.json",
+    "calibration": "C:\\Users\\subha\\Downloads\\bharat-earth\\data\\features\\calibration_v4\\calibrated_predictions.csv",
+    "policy": "C:\\Users\\subha\\Downloads\\bharat-earth\\data\\features\\policy_v4\\selected_policy.csv",
+    "drift": "C:\\Users\\subha\\Downloads\\bharat-earth\\data\\features\\monitoring_v4\\feature_drift.csv"
+}

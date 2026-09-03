@@ -1,0 +1,7 @@
+rainfall:
+  source_name: "India Meteorological Department"
+  provider: "IMD"
+  portal: "data.gov.in"
+  dataset: "Rainfall in India"
+  frequency: "monthly"
+  historical_period: "1901-2017"

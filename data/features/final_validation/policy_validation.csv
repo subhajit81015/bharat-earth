@@ -1,0 +1,4 @@
+section,check,status,value,details
+POLICY,POLICY THRESHOLD,PASS,column=risk_probability,
+POLICY,POLICY ALERT CONSISTENCY,PASS,0,
+POLICY,ALERT RATE,PASS,0.175926,

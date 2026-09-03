@@ -1,0 +1,2 @@
+target,probability_type,threshold,observations,events,alerts,alert_rate,true_negatives,false_positives,false_negatives,true_positives,precision,recall,f1,pr_auc,roc_auc,brier_score,selection_period,test_period,minimum_recall_requirement,minimum_precision_requirement
+target_3m_severe_anomaly,sigmoid_probability,0.09,756,31,260,0.3439153439153439,486,239,10,21,0.08076923076923077,0.6774193548387096,0.14432989690721648,0.09249057749014135,0.7538598442714126,0.04235264971046704,2014-2015,2016-2017,0.4,0.1

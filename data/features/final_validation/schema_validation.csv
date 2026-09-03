@@ -1,0 +1,2 @@
+section,check,status,value,details
+PRODUCTION SCHEMA,DEPLOYMENT SCHEMA,PASS,,All production columns present

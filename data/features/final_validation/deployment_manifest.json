@@ -1,0 +1,39 @@
+{
+  "project": "Bharat Earth",
+  "version": "3.13",
+  "deployment_file": "C:\\Users\\subha\\Downloads\\bharat-earth\\data\\features\\deployment\\final_risk_predictions_fixed.csv",
+  "deployment_file_exists": true,
+  "final_decision": "NO_GO",
+  "generated_at": "2026-09-01T02:29:21.573375",
+  "model": {
+    "algorithm": "XGBoost",
+    "probability_column": "risk_probability"
+  },
+  "policy": {
+    "threshold_source": "deployment policy_threshold",
+    "alert_column": "risk_alert"
+  },
+  "month_encoding": "calendar months 1-12",
+  "season_mapping": {
+    "WINTER": [
+      12,
+      1,
+      2
+    ],
+    "PRE_MONSOON": [
+      3,
+      4,
+      5
+    ],
+    "MONSOON": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "POST_MONSOON": [
+      10,
+      11
+    ]
+  }
+}

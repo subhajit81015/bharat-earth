@@ -1,0 +1,2 @@
+observations,events,event_rate,alerts,alert_rate,true_positive,true_negative,false_positive,false_negative,precision,recall,f1,false_positive_rate,false_negative_rate,average_probability,maximum_probability
+7668,424,0.05529473135106938,4847,0.6321074595722483,413,2810,4434,11,0.08520734474932948,0.9740566037735849,0.15670650730411687,0.6120927664273882,0.025943396226415096,0.24689686,0.8157835

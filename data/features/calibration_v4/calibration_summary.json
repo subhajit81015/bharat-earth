@@ -1,0 +1,37 @@
+{
+  "dataset": "C:\\Users\\subha\\Downloads\\bharat-earth\\data\\features\\ml_dataset_v4.csv",
+  "model": "C:\\Users\\subha\\Downloads\\bharat-earth\\data\\features\\model_v4\\xgboost_model.json",
+  "schema": "C:\\Users\\subha\\Downloads\\bharat-earth\\data\\features\\model_v4\\model_schema.json",
+  "rows": 756,
+  "target": "target_3m_severe_anomaly",
+  "target_rate": 0.041005291005291,
+  "selected_calibration": "sigmoid_probability",
+  "raw_metrics": {
+    "pr_auc": 0.09249057749014135,
+    "roc_auc": 0.7538598442714126,
+    "brier": 0.045764434587526895,
+    "mean_probability": 0.02949577257538809
+  },
+  "isotonic_metrics": {
+    "pr_auc": 0.08025394916982359,
+    "roc_auc": 0.7393993325917687,
+    "brier": 0.04795104024093745,
+    "mean_probability": 0.10845308664886481
+  },
+  "sigmoid_metrics": {
+    "pr_auc": 0.09249057749014135,
+    "roc_auc": 0.7538598442714126,
+    "brier": 0.042352649710467045,
+    "mean_probability": 0.09521823855780095
+  },
+  "sigmoid_parameters": {
+    "a": 2.0268974912040663,
+    "b": -2.329185150465605
+  },
+  "feature_count": 23,
+  "categorical_features": [
+    "subdivision",
+    "month",
+    "season"
+  ]
+}
