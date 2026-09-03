@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "row_count": 50133,
+  "checks": [
+    {
+      "name": "schema",
+      "status": "PASS",
+      "message": "Schema matches the required Earth State layout."
+    },
+    {
+      "name": "target_leakage",
+      "status": "PASS",
+      "message": "Target leakage check passed."
+    },
+    {
+      "name": "required_fields",
+      "status": "PASS",
+      "message": "Required fields are populated."
+    },
+    {
+      "name": "month",
+      "status": "PASS",
+      "message": "Month values are within the valid 1-12 range."
+    },
+    {
+      "name": "season",
+      "status": "PASS",
+      "message": "Season values are valid."
+    },
+    {
+      "name": "subdivision",
+      "status": "PASS",
+      "message": "Subdivision values are populated."
+    },
+    {
+      "name": "duplicates",
+      "status": "PASS",
+      "message": "State IDs are unique."
+    },
+    {
+      "name": "chronology",
+      "status": "PASS",
+      "message": "Chronology is consistent within each subdivision."
+    },
+    {
+      "name": "numeric_values",
+      "status": "PASS",
+      "message": "Numeric fields are valid."
+    },
+    {
+      "name": "impossible_values",
+      "status": "PASS",
+      "message": "Observed values are within plausible ranges."
+    }
+  ],
+  "issues": []
+}
