@@ -1,0 +1,241 @@
+{
+  "engine_version": "v1",
+  "input_artifacts": {
+    "earth_state": "C:\\Users\\subha\\Downloads\\bharat-earth\\data\\features\\earth_state_v1\\earth_state.csv",
+    "earth_state_schema": "C:\\Users\\subha\\Downloads\\bharat-earth\\data\\features\\earth_state_v1\\earth_state_schema.json",
+    "earth_memory": "C:\\Users\\subha\\Downloads\\bharat-earth\\data\\features\\earth_memory_v1\\earth_memory.csv",
+    "earth_memory_schema": "C:\\Users\\subha\\Downloads\\bharat-earth\\data\\features\\earth_memory_v1\\earth_memory_schema.json"
+  },
+  "input_row_counts": {
+    "earth_state": 50133,
+    "earth_memory": 50133
+  },
+  "output_row_count": 50133,
+  "feature_count": 19,
+  "selected_features": [
+    "rainfall_mm",
+    "rainfall_3m",
+    "rainfall_6m",
+    "rainfall_12m",
+    "rainfall_anomaly",
+    "rainfall_anomaly_pct",
+    "rainfall_deficit_mm",
+    "rainfall_zscore",
+    "rainfall_trend_3m",
+    "rainfall_lag_1m",
+    "rainfall_lag_2m",
+    "rainfall_lag_3m",
+    "anomaly_persistence",
+    "deficit_persistence",
+    "rainfall_condition_persistence",
+    "recurrence_count",
+    "months_since_similar_state",
+    "historical_similarity_count",
+    "similarity_score"
+  ],
+  "excluded_features": [
+    "target_3m_severe_anomaly"
+  ],
+  "target_excluded": true,
+  "normalization_method": "median imputation and IQR scaling fitted on current Earth State/Memories only",
+  "candidate_k": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "candidate_metrics": [
+    {
+      "k": 2,
+      "inertia": 1157020.985511818,
+      "silhouette_score": 0.4432692973729425,
+      "minimum_cluster_size": 6469
+    },
+    {
+      "k": 3,
+      "inertia": 912380.0927548397,
+      "silhouette_score": 0.4009077867422389,
+      "minimum_cluster_size": 5599
+    },
+    {
+      "k": 4,
+      "inertia": 810141.0846235093,
+      "silhouette_score": 0.3499050677540061,
+      "minimum_cluster_size": 1120
+    },
+    {
+      "k": 5,
+      "inertia": 722498.4344955113,
+      "silhouette_score": 0.2769939507995789,
+      "minimum_cluster_size": 965
+    },
+    {
+      "k": 6,
+      "inertia": 642755.3404600684,
+      "silhouette_score": 0.28246150187580243,
+      "minimum_cluster_size": 912
+    }
+  ],
+  "selected_k": 2,
+  "clustering_method": "KMeans",
+  "random_state": 42,
+  "regime_counts": {
+    "REGIME_01": 43664,
+    "REGIME_02": 6469
+  },
+  "regime_profiles": [
+    {
+      "regime_id": "REGIME_01",
+      "observation_count": 43664,
+      "proportion": 0.8709632377874853,
+      "mean_rainfall": 108.56352377239054,
+      "mean_rainfall_anomaly": 15.520379749531163,
+      "mean_rainfall_deficit": 8.09302829433856,
+      "mean_rainfall_zscore": 0.15085455106822404,
+      "mean_rainfall_trend": -17.314937768882142,
+      "mean_persistence": 15.484407360079603,
+      "mean_recurrence": 5.125229021619641,
+      "subdivisions_represented": [
+        "Andaman & Nicobar Islands",
+        "Arunachal Pradesh",
+        "Assam & Meghalaya",
+        "Bihar",
+        "Chhattisgarh",
+        "Coastal Andhra Pradesh",
+        "Coastal Karnataka",
+        "East Madhya Pradesh",
+        "East Rajasthan",
+        "East Uttar Pradesh",
+        "Gangetic West Bengal",
+        "Gujarat Region",
+        "Haryana Delhi & Chandigarh",
+        "Himachal Pradesh",
+        "Jammu & Kashmir",
+        "Jharkhand",
+        "Kerala",
+        "Konkan & Goa",
+        "Lakshadweep",
+        "Madhya Maharashtra",
+        "Matathwada",
+        "Naga Mani Mizo Tripura",
+        "North Interior Karnataka",
+        "Orissa",
+        "Punjab",
+        "Rayalseema",
+        "Saurashtra & Kutch",
+        "South Interior Karnataka",
+        "Sub Himalayan West Bengal & Sikkim",
+        "Tamil Nadu",
+        "Telangana",
+        "Uttarakhand",
+        "Vidarbha",
+        "West Madhya Pradesh",
+        "West Rajasthan",
+        "West Uttar Pradesh"
+      ],
+      "months_represented": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "regime_id": "REGIME_02",
+      "observation_count": 6469,
+      "proportion": 0.1290367622125147,
+      "mean_rainfall": 181.87246869686194,
+      "mean_rainfall_anomaly": -104.55453862921767,
+      "mean_rainfall_deficit": 104.55466120292195,
+      "mean_rainfall_zscore": -1.0144360323803356,
+      "mean_rainfall_trend": 119.85877342419082,
+      "mean_persistence": -104.55453862921767,
+      "mean_recurrence": 0.6007110836296182,
+      "subdivisions_represented": [
+        "Andaman & Nicobar Islands",
+        "Arunachal Pradesh",
+        "Assam & Meghalaya",
+        "Bihar",
+        "Chhattisgarh",
+        "Coastal Andhra Pradesh",
+        "Coastal Karnataka",
+        "East Madhya Pradesh",
+        "East Rajasthan",
+        "East Uttar Pradesh",
+        "Gangetic West Bengal",
+        "Gujarat Region",
+        "Haryana Delhi & Chandigarh",
+        "Himachal Pradesh",
+        "Jammu & Kashmir",
+        "Jharkhand",
+        "Kerala",
+        "Konkan & Goa",
+        "Lakshadweep",
+        "Madhya Maharashtra",
+        "Matathwada",
+        "Naga Mani Mizo Tripura",
+        "North Interior Karnataka",
+        "Orissa",
+        "Punjab",
+        "Rayalseema",
+        "Saurashtra & Kutch",
+        "South Interior Karnataka",
+        "Sub Himalayan West Bengal & Sikkim",
+        "Tamil Nadu",
+        "Telangana",
+        "Uttarakhand",
+        "Vidarbha",
+        "West Madhya Pradesh",
+        "West Rajasthan",
+        "West Uttar Pradesh"
+      ],
+      "months_represented": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  ],
+  "transition_count": 50097,
+  "stability_summary": [
+    {
+      "regime_id": "REGIME_01",
+      "assignment_count": 43664,
+      "minimum_cluster_size": 43664,
+      "centroid_stability": 0.21013363436025487,
+      "rerun_assignment_agreement": 1.0,
+      "stability_score": 0.6050668171801274,
+      "stability_interpretation": "algorithmic stability, not physical climate stability"
+    },
+    {
+      "regime_id": "REGIME_02",
+      "assignment_count": 6469,
+      "minimum_cluster_size": 6469,
+      "centroid_stability": 0.1628860269442359,
+      "rerun_assignment_agreement": 1.0,
+      "stability_score": 0.5814430134721179,
+      "stability_interpretation": "algorithmic stability, not physical climate stability"
+    }
+  ],
+  "validation_status": "PASS",
+  "leakage_status": "PASS",
+  "scientific_limitation": "These are reproducible data-derived rainfall/climate regimes, not proven physical or causal climate regimes."
+}

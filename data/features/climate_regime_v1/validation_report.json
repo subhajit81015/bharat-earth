@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "row_count": 50133,
+  "checks": [
+    {
+      "name": "schema_validity",
+      "status": "PASS",
+      "message": "Required assignment columns are present."
+    },
+    {
+      "name": "one_to_one_assignment",
+      "status": "PASS",
+      "message": "Each Earth State has one regime assignment."
+    },
+    {
+      "name": "target_leakage",
+      "status": "PASS",
+      "message": "The prediction target is excluded from regime discovery and output."
+    },
+    {
+      "name": "subdivision_consistency",
+      "status": "PASS",
+      "message": "Subdivision identity is preserved."
+    },
+    {
+      "name": "valid_regime_ids",
+      "status": "PASS",
+      "message": "Regime IDs use the canonical format."
+    },
+    {
+      "name": "no_empty_regime",
+      "status": "PASS",
+      "message": "Every discovered regime has assignments."
+    },
+    {
+      "name": "missing_value_handling",
+      "status": "PASS",
+      "message": "Assignment identity and regime values are complete."
+    },
+    {
+      "name": "temporal_ordering",
+      "status": "PASS",
+      "message": "Assignments are chronologically ordered within subdivisions."
+    },
+    {
+      "name": "future_state_exclusion",
+      "status": "PASS",
+      "message": "Persistence uses only the current and previous ordered state."
+    },
+    {
+      "name": "transition_validity",
+      "status": "PASS",
+      "message": "Transitions contain valid adjacent regime pairs."
+    },
+    {
+      "name": "v4_integrity",
+      "status": "PASS",
+      "message": "V4 integrity is verified separately by git checks."
+    }
+  ],
+  "issues": []
+}

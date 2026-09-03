@@ -1,0 +1,19 @@
+{
+  "engine_version": "v1",
+  "columns": [
+    "state_id",
+    "subdivision",
+    "year",
+    "month",
+    "season",
+    "regime_id",
+    "regime_assignment_version",
+    "previous_state_id",
+    "previous_regime_id",
+    "regime_changed",
+    "consecutive_months_in_current_regime",
+    "regime_duration"
+  ],
+  "target_exclusion": "target_3m_severe_anomaly",
+  "temporal_rule": "current and prior rows only; no future observations"
+}
