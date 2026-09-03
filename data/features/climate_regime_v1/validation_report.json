@@ -18,6 +18,21 @@
       "message": "The prediction target is excluded from regime discovery and output."
     },
     {
+      "name": "feature_provenance",
+      "status": "PASS",
+      "message": "Selected regime features are explicitly recorded."
+    },
+    {
+      "name": "source_lineage",
+      "status": "PASS",
+      "message": "Every assignment retains source Earth State lineage."
+    },
+    {
+      "name": "deterministic_rerun_equivalence",
+      "status": "PASS",
+      "message": "Deterministic rerun produces equivalent regime assignments."
+    },
+    {
       "name": "subdivision_consistency",
       "status": "PASS",
       "message": "Subdivision identity is preserved."

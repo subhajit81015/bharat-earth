@@ -7,6 +7,9 @@ Status: PASS
 - schema_validity: PASS - Required assignment columns are present.
 - one_to_one_assignment: PASS - Each Earth State has one regime assignment.
 - target_leakage: PASS - The prediction target is excluded from regime discovery and output.
+- feature_provenance: PASS - Selected regime features are explicitly recorded.
+- source_lineage: PASS - Every assignment retains source Earth State lineage.
+- deterministic_rerun_equivalence: PASS - Deterministic rerun produces equivalent regime assignments.
 - subdivision_consistency: PASS - Subdivision identity is preserved.
 - valid_regime_ids: PASS - Regime IDs use the canonical format.
 - no_empty_regime: PASS - Every discovered regime has assignments.
